@@ -13,6 +13,7 @@ depends=(desktop-file-utils libxt nss dbus dbus-glib gtk2 alsa-lib)
 makedepends=()
 provides=(firefox-aurora)
 conflicts=(firefox-aurora)
+install=$pkgname.install
 _baseurl=http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora
 _filename=firefox-${pkgver}.en-US.linux-${CARCH}
 source=(firefox-aurora.desktop
